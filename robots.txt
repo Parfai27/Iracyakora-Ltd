@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iracyakora-ltd.netlify.app/sitemap.xml

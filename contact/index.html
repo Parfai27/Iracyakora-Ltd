@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Iracyakora Ltd for hardware, fittings, ironmongery, and building equipment quotations."
+    />
+    <meta property="og:title" content="Iracyakora Ltd | Contact" />
+    <meta property="og:description" content="Contact Iracyakora Ltd by phone, email, WhatsApp, or the website enquiry form." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iracyakora-ltd.netlify.app/contact/" />
+    <meta property="og:image" content="https://iracyakora-ltd.netlify.app/hero-background.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#141b1b" />
+    <title>Iracyakora Ltd | Contact</title>
+    <link rel="canonical" href="https://iracyakora-ltd.netlify.app/contact/" />
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="../" aria-label="Iracyakora Ltd home">
+          <img class="brand-logo" src="../assets/brand-logo.svg" alt="Iracyakora Ltd" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="../">Home</a>
+          <a href="../products/">Products</a>
+          <a href="../about/">About</a>
+          <a href="../projects/">Projects</a>
+          <a href="../contact/" aria-current="page">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section page-hero">
+          <p class="eyebrow">Contact</p>
+          <h1>Reach Iracyakora Ltd for quotations, stock enquiries, and project supply discussions.</h1>
+          <p class="lead">
+            Use the phone numbers below, send an email directly, or submit the form to
+            send an enquiry through the live website.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="contact-layout">
+            <div class="contact-card">
+              <h3>Sales Enquiries</h3>
+              <p>Choose the fastest way to reach us and we will help you with hardware sourcing and quotations.</p>
+              <div class="contact-links">
+                <a class="contact-link" href="tel:+250783378880">
+                  <strong>Call 1</strong>
+                  <span>0783 378 880</span>
+                </a>
+                <a class="contact-link" href="tel:+250791794237">
+                  <strong>Call 2</strong>
+                  <span>0791 794 237</span>
+                </a>
+                <a class="contact-link" href="mailto:mugwanezaparfait@gmail.com">
+                  <strong>Email</strong>
+                  <span>mugwanezaparfait@gmail.com</span>
+                </a>
+                <a
+                  class="contact-link"
+                  href="https://wa.me/250791794237"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <strong>WhatsApp</strong>
+                  <span>0791 794 237</span>
+                </a>
+              </div>
+              <p class="contact-note">
+                Best for: quote requests, stock enquiries, ironmongery consultations, and project supply planning.
+              </p>
+            </div>
+
+            <form
+              class="contact-form"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+              action="../thanks/"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="hidden-field">
+                <label>
+                  Do not fill this out if you are human
+                  <input name="bot-field" />
+                </label>
+              </p>
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Company
+                <input type="text" name="company" placeholder="Company or project name" />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" placeholder="Your phone number" />
+              </label>
+              <label>
+                Needed Products
+                <input
+                  type="text"
+                  name="products"
+                  placeholder="Locks, hinges, rails, handles..."
+                  required
+                />
+              </label>
+              <label>
+                Project Details
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us what you are building or sourcing."
+                  required
+                ></textarea>
+              </label>
+              <button class="button button-primary" type="submit">Send Enquiry</button>
+              <a
+                class="button button-secondary"
+                href="https://wa.me/250791794237"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Chat On WhatsApp
+              </a>
+              <p class="form-note">
+                Form submissions are routed through Netlify Forms for website enquiries.
+              </p>
+            </form>
+          </div>
+        </section>
+
+        <section class="section accent-section">
+          <div class="section-heading">
+            <p class="eyebrow">Frequently Asked</p>
+            <h2>Helpful answers for first-time enquiries.</h2>
+          </div>
+          <div class="legal-grid">
+            <article class="product-card">
+              <h3>Can I request a quote?</h3>
+              <p>Yes. Use the form, email, phone number, or WhatsApp to describe the products or project you need help with.</p>
+            </article>
+            <article class="product-card">
+              <h3>Can I ask about a product category first?</h3>
+              <p>Yes. If you are not sure which fitting type is right, share your use case and we can guide the discussion.</p>
+            </article>
+            <article class="product-card">
+              <h3>What details should I send?</h3>
+              <p>Project type, product type, quantity if known, and any information that helps explain what you are sourcing.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer footer-rich">
+        <div>
+          <img class="footer-logo" src="../assets/brand-logo.svg" alt="Iracyakora Ltd" />
+          <p>Hardware and architectural ironmongery for durable, well-finished spaces.</p>
+        </div>
+        <div class="footer-links">
+          <a href="../">Home</a>
+          <a href="../products/">Products</a>
+          <a href="../about/">About</a>
+          <a href="../projects/">Projects</a>
+          <a href="../contact/" aria-current="page">Contact</a>
+          <a href="../privacy/">Privacy</a>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:mugwanezaparfait@gmail.com">mugwanezaparfait@gmail.com</a>
+          <a href="tel:+250783378880">0783 378 880</a>
+          <a href="tel:+250791794237">0791 794 237</a>
+        </div>
+        <p>&copy; <span id="current-year"></span> Iracyakora Ltd. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/250791794237"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Chat with Iracyakora Ltd on WhatsApp"
+    >
+      WhatsApp
+    </a>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

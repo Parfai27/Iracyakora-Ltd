@@ -1,0 +1,17 @@
+{
+  "name": "Iracyakora Ltd",
+  "short_name": "Iracyakora",
+  "description": "Hardware and architectural ironmongery supplier for residential and commercial projects.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ede7de",
+  "theme_color": "#141b1b",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
